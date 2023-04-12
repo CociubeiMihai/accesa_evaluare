@@ -1,0 +1,10 @@
+.question-page{
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+    gap: 20px;
+}
+
+.quest{
+    margin-top: 150px;
+}

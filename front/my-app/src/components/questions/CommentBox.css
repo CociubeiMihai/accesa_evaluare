@@ -1,0 +1,32 @@
+.comment-box {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    max-width: 500px;
+  }
+  
+  label {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    height: 150px;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  

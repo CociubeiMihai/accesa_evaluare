@@ -1,0 +1,56 @@
+.my-component {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  position: relative;
+  transition: box-shadow 0.3s ease-in-out;
+  cursor: pointer; 
+}
+
+.my-component:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.my-component-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.my-component-prize {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.my-component-description {
+  margin-bottom: 10px;
+}
+
+.my-component-author {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-style: italic;
+}
+
+.my-component-status {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.my-component-status.available {
+  background-color: green;
+}
+
+.my-component-status.unavailable {
+  background-color: red;
+}
